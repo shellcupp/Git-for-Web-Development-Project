@@ -8,7 +8,7 @@ https://codepen.io/shellcupp/pen/eYmmvWV?editors=1100
     HTML(Hypertext Markup Language) is used to create webpages.
 
     3. What is an attribute and where do we put it? 
-    Attributes provide additional information about an element and are
+    Attributes provide additional information about an HTML element and are
      always specified in the opening tag.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
@@ -19,7 +19,8 @@ https://codepen.io/shellcupp/pen/eYmmvWV?editors=1100
 
     6. What do we put in the head of our HTML document? 
     Inside the head tag of an HTML document you should put
-     a title tag that will change what showsup in the tab.
+     a title tag that will change what showsup in the tab. Also any meta data 
+     and any links that the page needs to load before hand like to CSS or fonts.
 
     7. What is an id? 
     An id is a global idenifier that must be 
@@ -171,7 +172,27 @@ Stretch Questions
     An element with position: absolute is removed from the normal document flow. It is postioned automatically to the starting point (top-left corner) of its parent element.
     
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    To make an element take up only the amount of space it needs but also have the ability to give it a width you would apply display: inline-block;
    
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    display block : footer, div, section
+    display inline : a, img
+    display inline-block : button
 
     5. In your own words, explain the box model. What is the fix for the box model? 
+    The box model allows us to layout the spacing and size of an individual HTML elements. We do this by adjusting content, padding, border, and margin. 
+    * {
+    box-sizing: border-box;
+    }
+    The box-sizing property allows you to control how the sizing of an element’s dimensions works. Using the box-sizing property, you can tell the browser to include the padding width and/or border width in the width of the element, without increasing that width.
+
+    I looked up some additional Git commands:
+    Git pull command is used to download Git repository changes from a remote repository and merge those changes into your local repository. Pull is basically git fetch followed by git merge meaning after successfully retrieving the changes from the remote repository, you can merge it with your local branch using a regular git merge.
+    Git rebase in its simplest form is a command which will “port” another branch (Branch A) into the branch where you are currently working (Branch B), by applying all of your unique commits from Branch B on top of Branch A and replacing Branch B with this revised version.
+    The "merge" command is used to integrate changes from another branch. The target of this integration (i.e. the branch that receives changes) is always the currently checked out HEAD branch. While Git can perform most integrations automatically, some changes will result in conflicts that have to be solved by the user.
+
+    The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard.
+    Git revert command is used to revert a particular commit. Most of the times a commit is reverted when it is causing the regression during testing.
+    The Git clean command deletes untracked files be careful with this because it doesn't give a warning and deletes permanently.
+   
+   I see up SSH keys with github so I don't have to enter my passwaord everytime.
