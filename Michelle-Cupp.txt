@@ -1,4 +1,6 @@
-https://codepen.io/shellcupp/pen/eYmmvWV?editors=1100
+https://codepen.io/shellcupp/pen/eYmmvWV?editors=1100<!--assignment--!>
+https://codepen.io/shellcupp/pen/PowzxMm?editors=1100<!--challenge--!>
+https://codepen.io/shellcupp/pen/eYmYMjR?editors=1100<!--sweet eats--!>
  1. What is Semantic HTML? 
  Semantic HTML is used to provide meaning to our content. It helps
   us and code readers read the code, also it will help search engines
